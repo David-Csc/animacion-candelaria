@@ -45,8 +45,8 @@ body{
     position: absolute;
     -webkit-animation-name: primero;
     animation-name: primero;
-    -webkit-animation-duration: 2.5s;
-    animation-duration: 2.5s; 
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s; 
     left: 30%;
     top: 40%;
 }
@@ -63,8 +63,8 @@ body{
     position: absolute;
     -webkit-animation-name: primero;
     animation-name: primero;
-    -webkit-animation-duration: 2.5s;
-    animation-duration: 2.5s; 
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s; 
     right: 30%;
     top: 40%;
 }
@@ -86,7 +86,7 @@ body{
     animation-delay: 2s;
     right: 32%;
     top: 40%;
-    opacity: ;
+    opacity: 0;
 }
 .uno{
     right: 35%;
@@ -112,19 +112,27 @@ body{
 .seis{
     top: 33%;
     right: 20%;
+    animation-delay: 3s;
 }
 .siete{
     top: 80%;
     right: 16%;
+    animation-delay: 3s;
 }
 .ocho{
-
+    top: 25%;
+    right: 45%;
+    animation-delay: 3s;
 }
 .nueve{
-
+    top: 80%;
+    right: 55%;
+    animation-delay: 3s;
 }
 .diez{
-
+    top: 23%;
+    left: 17%;
+    animation-delay: 3s;
 }
 .triangle-red{
     display: flex;
@@ -135,8 +143,8 @@ body{
     position: absolute;
     -webkit-animation-name: derecha;
     animation-name: derecha;
-    -webkit-animation-duration: 2.8s;
-    animation-duration: 2.8s;
+    -webkit-animation-duration: 2.3s;
+    animation-duration: 2.3s;
     top: -60%;
 }
 .triangle-red--2{
@@ -148,8 +156,8 @@ body{
     position: absolute;
     -webkit-animation-name: izquierda;
     animation-name: izquierda;
-    -webkit-animation-duration: 2.8s;
-    animation-duration: 2.8s;
+    -webkit-animation-duration: 2.3s;
+    animation-duration: 2.3s;
     top: -60%;
 }
 .tamaño{
@@ -170,29 +178,13 @@ body{
     top: 40%;
     font-size: 15px;
 }
+.tamaño-2{
+
+}
 
 
 /* Chrome, Safari, Opera */
 @-webkit-keyframes aparece {
-    /* 0%{
-       opacity: 0;
-       transform: scale(0);
-    }
-    5%{
-        
-    }
-    25%{
-
-    }
-    50%{
-       
-    }
-    75%{
-        transform: scale(1);
-    }
-    100%{
-        opacity: 1;
-    } */
 
     from{
         opacity: 0;
