@@ -1,0 +1,255 @@
+body{
+    margin-bottom: 500px;
+    margin-top: 500px;
+}
+
+.bkg-silver{
+    background-color: black;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    position: relative;
+}
+.circle-mustard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: orange;
+    width: 110px;
+    border: 1px solid orange;
+    border-radius: 60px;
+    height: 110px;
+    position: absolute;
+    -webkit-animation-name: aparece;
+    animation-name: aparece;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s; 
+    animation-delay: 1.5s;
+    left: 45%;
+    top: 40%;
+    opacity: 0;
+}
+.circle-silver{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: grey;
+    width: 120px;
+    border: 1px solid grey;
+    border-radius: 60px;
+    height: 120px;
+    position: absolute;
+    -webkit-animation-name: primero;
+    animation-name: primero;
+    -webkit-animation-duration: 2.5s;
+    animation-duration: 2.5s; 
+    left: 30%;
+    top: 40%;
+}
+.circle-silver--2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: grey;
+    width: 120px;
+    border: 1px solid grey;
+    border-radius: 60px;
+    height: 120px;
+    position: absolute;
+    -webkit-animation-name: primero;
+    animation-name: primero;
+    -webkit-animation-duration: 2.5s;
+    animation-duration: 2.5s; 
+    right: 30%;
+    top: 40%;
+}
+.circle-silver--3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: grey;
+    width: 55px;
+    border: 1px solid grey;
+    border-radius: 50px;
+    height: 55px;
+    position: absolute;
+    -webkit-animation-name: aparece;
+    animation-name: aparece;
+    -webkit-animation-duration: 2.5s;
+    animation-duration: 2.5s; 
+    animation-delay: 2s;
+    right: 32%;
+    top: 40%;
+    opacity: ;
+}
+.uno{
+    right: 35%;
+    top: 17%
+}
+.dos{
+    right: 70%;
+    top: 70%;
+    
+}
+.tres{
+    left: 30%;
+    top: 10%;
+}
+.cuatro{
+    left: 80%;
+    top: 60%;
+}
+.cinco{
+    right: 25%;
+    top: 75%;
+}
+.seis{
+    top: 33%;
+    right: 20%;
+}
+.siete{
+    top: 80%;
+    right: 16%;
+}
+.ocho{
+
+}
+.nueve{
+
+}
+.diez{
+
+}
+.triangle-red{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 175px;
+    position: absolute;
+    -webkit-animation-name: derecha;
+    animation-name: derecha;
+    -webkit-animation-duration: 2.8s;
+    animation-duration: 2.8s;
+    top: -60%;
+}
+.triangle-red--2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 175px;
+    position: absolute;
+    -webkit-animation-name: izquierda;
+    animation-name: izquierda;
+    -webkit-animation-duration: 2.8s;
+    animation-duration: 2.8s;
+    top: -60%;
+}
+.tamaño{
+    top: -60%;
+    -webkit-animation-name: aparece;
+    animation-name: aparece;
+    -webkit-animation-duration: 2.8s;
+    animation-duration: 2.8s;
+}
+.parrafo{
+    position: absolute;
+    top: 60%;
+    font-weight: 800;
+    font-size: 20px;
+    color: silver;
+}
+.variante{
+    top: 40%;
+    font-size: 15px;
+}
+
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes aparece {
+    /* 0%{
+       opacity: 0;
+       transform: scale(0);
+    }
+    5%{
+        
+    }
+    25%{
+
+    }
+    50%{
+       
+    }
+    75%{
+        transform: scale(1);
+    }
+    100%{
+        opacity: 1;
+    } */
+
+    from{
+        opacity: 0;
+        transform: scale(0);
+    }
+    to{
+        transform: scale(1);
+        opacity: 1;
+    }
+ }    
+
+/* Standard syntax */
+@-webkit-keyframes primero {
+    0%{
+        transform: scale(0)
+    }
+    60%{
+        transform: scale(1)
+    }
+    75%{
+       
+    }
+    
+    100%{
+        
+    }
+}
+
+@-webkit-keyframes derecha { 
+    0%{
+        transform: scale(0)
+    }
+    60%{
+        transform: scale(1)
+    }
+    75%{
+        transform: translateX(135px);
+    }
+    
+    100%{
+        
+    }
+ }
+ @-webkit-keyframes izquierda { 
+    0%{
+        transform: scale(0)
+    }
+    60%{
+        transform: scale(1)
+    }
+    75%{
+        transform: translateX(-135px);
+    }
+    
+    100%{
+        
+    }
+ }
+ 
+   
