@@ -86,7 +86,7 @@ body{
     animation-delay: 2s;
     right: 32%;
     top: 40%;
-    opacity: 0;
+    opacity:0;
 }
 .uno{
     right: 35%;
@@ -134,6 +134,129 @@ body{
     left: 17%;
     animation-delay: 3s;
 }
+.once{
+    left: 15%;
+    top: 55%;
+    animation-delay: 3.5s;
+    width: 50px;
+    height: 50px;
+}
+.doce{
+    left: 21%;
+    top: 85%;
+    animation-delay: 3.5s;
+    width: 50px;
+    height: 50px;
+    width: 40px;
+    height: 40px;
+}
+.trece{
+    top: 16%;
+    right: 20%;
+    animation-delay: 4s;
+    width: 40px;
+    height: 40px;
+}
+.catorce{
+    top: 5%;
+    right: 26%;
+    animation-delay: 4s;
+    width: 40px;
+    height: 40px;
+}
+.quince{
+    top: 4%;
+    right: 10%;
+    animation-delay: 4s;
+    width: 40px;
+    height: 40px;
+}
+.diesyseis{
+    top: 25%;
+    right: 27%;
+    animation-delay: 4s;
+    width: 40px;
+    height: 40px;
+}
+.diesysiete{
+    top: 34%;
+    right: 6%;
+    animation-delay: 4s;
+    width: 40px;
+    height: 40px;
+}
+.diesyocho{
+    top: 48%;
+    right: 23%;
+    animation-delay: 4s;
+    width: 40px;
+    height: 40px;
+}
+.diesynueve{
+    top: 85%;
+    right: 8%;
+    animation-delay: 4s;
+    width: 40px;
+    height: 40px;
+}
+.veinte{
+    top: 90%;
+    right: 20%;
+    animation-delay: 4s;
+    width: 40px;
+    height: 40px;
+}
+.veintiuno{
+    top: 35%;
+    right: 40%;
+    animation-delay: 4s;
+    width: 40px;
+    height: 40px;
+}
+.veintidos{
+    top: 60%;
+    right: 50%;
+    animation-delay: 4s;
+    width: 40px;
+    height: 40px;
+}
+.veintitres{
+    top: 88%;
+    right: 47%;
+    animation-delay: 4s;
+    width: 40px;
+    height: 40px;
+}
+.veinticuatro{
+    top: 90%;
+    left: 36%;
+    animation-delay: 4s;
+    width: 40px;
+    height: 40px;
+}
+.veinticinco{
+    top: 75%;
+    left: 33%;
+    animation-delay: 4s;
+    width: 40px;
+    height: 40px;
+}
+.veintiseis{
+    top: 75%;
+    left: 10%;
+    animation-delay: 4s;
+    width: 40px;
+    height: 40px;
+}
+.veintisiete{
+
+}
+.veintiocho{
+
+}
+.veintonueve{
+
+}
 .triangle-red{
     display: flex;
     justify-content: center;
@@ -162,6 +285,13 @@ body{
 }
 .tamaño{
     top: -60%;
+    -webkit-animation-name: aparece;
+    animation-name: aparece;
+    -webkit-animation-duration: 2.8s;
+    animation-duration: 2.8s;
+}
+.tamaño--2{
+    top: -70%;
     -webkit-animation-name: aparece;
     animation-name: aparece;
     -webkit-animation-duration: 2.8s;
