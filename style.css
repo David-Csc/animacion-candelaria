@@ -154,8 +154,8 @@ body{
     top: 16%;
     right: 20%;
     animation-delay: 4s;
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px
 }
 .catorce{
     top: 5%;
@@ -249,13 +249,116 @@ body{
     height: 40px;
 }
 .veintisiete{
-
+    width: 35px;
+    height: 35px;
+    top: 7%;
+    right: 33%;
+    animation-delay: 4.5s;
 }
 .veintiocho{
-
+    width: 35px;
+    height: 35px;
+    top: 20%;
+    right: 31%;
+    animation-delay: 4.5s;
 }
-.veintonueve{
-
+.veintinueve{
+    top: 3%;
+    right: 18%;
+    width: 35px;
+    height: 35px;
+    animation-delay: 4.5s;
+}
+.treinta{
+    top: 15%;
+    right: 8%;
+    width: 35px;
+    height: 35px;
+    animation-delay: 4.5s;
+}
+.treintayuno{
+    right: 13%;
+    top: 30%;
+    width: 35px;
+    height: 35px;
+    animation-delay: 4.5s;
+}
+.treintaydos{
+    width: 35px;
+    height: 35px;
+    right: 18%;
+    top: 50%;
+    animation-delay: 4.5s;
+}
+.treintaytres{
+    width: 35px;
+    height: 35px;
+    right: 10%;
+    top: 50%;
+    animation-delay: 4.5s;
+}
+.treintaycuatro{
+    width: 35px;
+    height: 35px;
+    right: 11%;
+    top: 73%;
+    animation-delay: 4.5s;
+}
+.treintaycinco{
+    width: 35px;
+    height: 35px;
+    right: 5%;
+    top: 78%;
+    animation-delay: 4.5s;
+}
+.treintayseis{
+    width: 35px;
+    height: 35px;
+    top: 70%;
+    right: 35%;
+    animation-delay: 4.5s;
+}
+.treintaysiete{
+    width: 35px;
+    height: 35px;
+    top: 90%;
+    right: 30%;
+    animation-delay: 4.5s;
+}
+.treintayocho{
+    width: 35px;
+    height: 35px;
+    top: 75%;
+    right: 45%;
+    animation-delay: 4.5s;
+}
+.treintaynueve{
+    width: 35px;
+    height: 35px;
+    left: 30%;
+    top: 66%;
+    animation-delay: 4.5s;
+}
+.cuarenta{
+    width: 35px;
+    height: 35px;
+    left: 30%;
+    top: 66%;
+    animation-delay: 4.5s;
+}
+.cuarentayuno{
+    width: 35px;
+    height: 35px;
+    top: 38%;
+    left: 25%;
+    animation-delay: 4.5s;
+}
+.cuarentaydos{
+    width: 35px;
+    height: 35px;
+    top: 38%;
+    left: 5%;
+    animation-delay: 4.5s;
 }
 .triangle-red{
     display: flex;
