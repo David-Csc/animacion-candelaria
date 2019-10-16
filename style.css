@@ -360,6 +360,167 @@ body{
     left: 5%;
     animation-delay: 4.5s;
 }
+.cuarentaytres{
+    width: 35px;
+    height: 35px; 
+    top: 12%;
+    right: 30%;   
+    animation-delay: 5s;
+}
+.cuarentaycuatro{
+    width: 35px;
+    height: 35px;
+    top: 3%;
+    right: 40%;
+    animation-delay: 5s;
+}
+.cuarentaycinco{
+    width: 35px;
+    height: 35px;
+    top: 65%;
+    right: 5%
+    animation-delay: 5s;
+}
+.cuarentayseis{
+    width: 35px;
+    height: 35px;
+    top: 80%;
+    right: 36%;
+    animation-delay: 5s;
+}
+.cuarentaysiete{
+    width: 35px;
+    height: 35px;
+    top: 10%;
+    right: 50%;
+    animation-delay: 5s;
+}
+.cuarentayocho{
+    width: 35px;
+    height: 35px;
+    top: 15%;
+    right: 58%;
+    animation-delay: 5s;
+}
+.cuarentaynueve{
+    width: 35px;
+    height: 35px;
+    top: 37%;
+    right: 54%;
+    animation-delay: 5s;
+}
+.cincuenta{
+    width: 35px;
+    height: 35px;
+    top: 1%;
+    left: 34%;
+    animation-delay: 5s;
+}
+.cincuentayuno{
+    width: 35px;
+    height: 35px;
+    top: 6%;
+    left: 23%;
+    animation-delay: 5s;
+}
+.cincuentaydos{
+    width: 35px;
+    height: 35px;
+    top: 20%;
+    left: 25%;
+    animation-delay: 5s;
+}
+.cincuentaytres{
+    width: 35px;
+    height: 35px;
+    top: 45%;
+    left: 20%;
+    animation-delay: 5s;
+}
+.cincuentaycuatro{
+    width: 35px;
+    height: 35px;
+    top: 44%;
+    left: 10%;
+    animation-delay: 5s;
+}
+.cincuentaycinco{
+    width: 35px;
+    height: 35px;
+    top: 25%;
+    left: 4%;
+    animation-delay: 5s;
+}
+.cincuentayseis{
+    width: 35px;
+    height: 35px;
+    right: 5%;
+    top: 23%;
+    animation-delay: 5.5s;
+}
+.cincuentaysiete{
+    width: 35px;
+    height: 35px;
+    left: 28%;
+    top: 3%;
+     animation-delay: 5.5s;
+}
+.cincuentayocho{
+    width: 35px;
+    height: 35px;
+    left: 19%;
+    top: 13%;
+     animation-delay: 5.5s;
+}
+.cincuentaynueve{
+    width: 35px;
+    height: 35px;
+    left: 40%;
+    top: 6%;
+     animation-delay: 5.5s;
+}
+.sesenta{
+    width: 35px;
+    height: 35px;
+    left: 40%;
+    top: 6%;
+     animation-delay: 5.5s;
+}
+.sesentayuno{
+    width: 35px;
+    height: 35px;
+    left: 5%;
+    top: 50%;
+     animation-delay: 5.5s;
+}
+.sesentaydos{
+    width: 35px;
+    height: 35px;
+    top: 5%;
+    left: 50%;
+     animation-delay: 5.5s;
+}
+.sesentaytres{
+    width: 35px;
+    height: 35px;
+    top: 63%;
+    left: 8%;
+     animation-delay: 5.5s;
+}
+.sesentaycuatro{
+    width: 35px;
+    height: 35px;
+    top: 77%;
+    left: 3%;
+     animation-delay: 5.5s;
+}
+.sesentaycinco{
+    width: 35px;
+    height: 35px; 
+    top: 90%;
+    left: 10%;   
+     animation-delay: 5.5s;
+}
 .triangle-red{
     display: flex;
     justify-content: center;
