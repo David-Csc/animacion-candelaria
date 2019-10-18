@@ -86,7 +86,7 @@ body{
     animation-delay: 2s;
     right: 32%;
     top: 40%;
-    opacity:0;
+    opacity:;
 }
 .uno{
     right: 35%;
@@ -109,7 +109,7 @@ body{
     right: 25%;
     top: 75%;
 }
-/*  */
+/* PRIMERA APARICION */
 .seis{
     top: 33%;
     right: 20%;
@@ -135,6 +135,7 @@ body{
     left: 17%;
     animation-delay: 3s;
 }
+/* SEGUNDA APARICION */
 .once{
     left: 15%;
     top: 55%;
@@ -151,6 +152,7 @@ body{
     width: 40px;
     height: 40px;
 }
+/* TERCERA APARICION */
 .trece{
     top: 16%;
     right: 20%;
@@ -249,6 +251,7 @@ body{
     width: 40px;
     height: 40px;
 }
+/* CUARTA APARICION */
 .veintisiete{
     width: 35px;
     height: 35px;
@@ -361,6 +364,7 @@ body{
     left: 5%;
     animation-delay: 4.5s;
 }
+/* QUINTA APARICION */
 .cuarentaytres{
     width: 35px;
     height: 35px; 
@@ -452,6 +456,7 @@ body{
     left: 4%;
     animation-delay: 5s;
 }
+/* SEXTA APARICION */
 .cincuentayseis{
     width: 35px;
     height: 35px;
@@ -522,6 +527,7 @@ body{
     left: 10%;   
      animation-delay: 5.5s;
 }
+/* SEPTIMA APARICION */
 .sesentayseis{
      width: 35px;
     height: 35px;
