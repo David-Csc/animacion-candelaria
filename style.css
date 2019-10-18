@@ -109,6 +109,7 @@ body{
     right: 25%;
     top: 75%;
 }
+/*  */
 .seis{
     top: 33%;
     right: 20%;
@@ -378,7 +379,7 @@ body{
     width: 35px;
     height: 35px;
     top: 65%;
-    right: 5%
+    right: 5%;
     animation-delay: 5s;
 }
 .cuarentayseis{
@@ -505,7 +506,7 @@ body{
     height: 35px;
     top: 63%;
     left: 8%;
-     animation-delay: 5.5s;
+    animation-delay: 5.5s;
 }
 .sesentaycuatro{
     width: 35px;
@@ -520,6 +521,55 @@ body{
     top: 90%;
     left: 10%;   
      animation-delay: 5.5s;
+}
+.sesentayseis{
+     width: 35px;
+    height: 35px;
+    top: 3%;
+    right: 52%; 
+    animation-delay: 6s;
+}
+.sesentaysiete{
+     width: 35px;
+    height: 35px; 
+    top: 20%;
+    right: 53%;
+    animation-delay: 6s;
+}
+.sesentayocho{
+     width: 35px;
+    height: 35px; 
+    top: 45%;
+    right: 5%;    
+    animation-delay: 6s;
+}
+.sesentaynueve{
+     width: 35px;
+    height: 35px; 
+    top: 67%;
+    left: 3%;
+    animation-delay: 6s;
+}
+.setenta{
+     width: 35px;
+    height: 35px; 
+    top: 58%;
+    left: 5%;
+    animation-delay: 6s;
+}
+.setentayuno{
+     width: 35px;
+    height: 35px; 
+    top: 86%;
+    left: 5%;
+    animation-delay: 6s;
+}
+.setentaydos{
+     width: 35px;
+    height: 35px; 
+    top: 86%;
+    left: 29%;
+    animation-delay: 6s;
 }
 .triangle-red{
     display: flex;
