@@ -1,10 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap"); 
-body{
-    margin-bottom: 500px;
-    margin-top: 500px;
-}
 p{
     font-family: 'Roboto';
+    font-weight: 300;
+
 }
 
 .bkg-silver{
@@ -94,11 +92,11 @@ p{
 }
 .uno{
     right: 35%;
-    top: 17%
+    top: 12%
 }
 .dos{
     right: 70%;
-    top: 70%;
+    top: 65%;
 }
 .tres{
     left: 30%;
@@ -124,13 +122,13 @@ p{
     animation-delay: 3s;
 }
 .ocho{
-    top: 25%;
-    right: 45%;
+    top: 15%;
+    right: 47%;
     animation-delay: 3s;
 }
 .nueve{
-    top: 80%;
-    right: 55%;
+    top: 75%;
+    right: 50%;
     animation-delay: 3s;
 }
 .diez{
@@ -147,13 +145,11 @@ p{
     height: 50px;
 }
 .doce{
-    left: 21%;
+    left: 15%;
     top: 85%;
     animation-delay: 3.5s;
-    width: 50px;
-    height: 50px;
-    width: 40px;
-    height: 40px;
+    width: 75px;
+    height: 75px;
 }
 /* TERCERA APARICION */
 .trece{
@@ -163,119 +159,119 @@ p{
     width: 60px;
     height: 60px
 }
-.veintiuno{
-    top: 35%;
-    right: 40%;
+.catorce{
+    top: 30%;
+    right: 42%;
     animation-delay: 4s;
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
 }
-.veintidos{
-    top: 60%;
-    right: 50%;
+.quince{
+    top: 65%;
+    right: 45%;
     animation-delay: 4s;
-    width: 40px;
-    height: 40px;
+    width: 70px;
+    height: 70px;
 }
-.veintitres{
-    top: 88%;
-    right: 47%;
+.diesyseis{
+    top: 85%;
+    right: 41%;
     animation-delay: 4s;
-    width: 40px;
-    height: 40px;
+    width: 80px;
+    height: 80px;
 }
-.veinticuatro{
-    top: 90%;
+.diesysiete{
+    top: 85%;
     left: 36%;
     animation-delay: 4s;
-    width: 40px;
-    height: 40px;
+    width: 80px;
+    height: 80px;
 }
-.veinticinco{
-    top: 75%;
+.diesyocho{
+    top: 69%;
     left: 33%;
     animation-delay: 4s;
-    width: 40px;
-    height: 40px;
+    width: 80px;
+    height: 80px;
 }
-.veintiseis{
+.diesynueve{
     top: 75%;
     left: 10%;
     animation-delay: 4s;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
 }
 /* CUARTA APARICION */
-.treintayuno{
+.veinte{
     right: 13%;
     top: 30%;
-    width: 35px;
-    height: 35px;
+    width: 60px;
+    height: 60px;
     animation-delay: 4.5s;
 }
-.treintaycinco{
-    width: 35px;
-    height: 35px;
+.veintiuno{
+    width: 80px;
+    height: 80px;
     right: 5%;
     top: 78%;
     animation-delay: 4.5s;
 }
-.treintayocho{
-    width: 35px;
-    height: 35px;
-    top: 75%;
-    right: 45%;
+.veintidos{
+    width: 80px;
+    height:80px;
+    top: 72%;
+    right: 35%;
     animation-delay: 4.5s;
 }
-.cincuentaycinco{
-    width: 35px;
-    height: 35px;
+.veintitres{
+    width: 50px;
+    height:50px;
     top: 25%;
     left: 4%;
     animation-delay: 5s;
 }
 /* SEXTA APARICION */
-.cincuentayseis{
-    width: 35px;
-    height: 35px;
+.veinticuatro{
+    width: 80px;
+    height: 80px;
     right: 5%;
     top: 23%;
     animation-delay: 5.5s;
 }
-.sesentayuno{
-    width: 35px;
-    height: 35px;
+.veinticinco{
+    width: 80px;
+    height:80px;
     left: 5%;
     top: 50%;
      animation-delay: 5.5s;
 }
-.sesentaycuatro{
-    width: 35px;
-    height: 35px;
-    top: 77%;
-    left: 3%;
+.veintiseis{
+    width: 80px;
+    height:80px;
+    top: 85%;
+    left: 5%;
      animation-delay: 5.5s;
 }
 /* SEPTIMA APARICION */
-.sesentayocho{
-     width: 35px;
-    height: 35px; 
+.veintisiete{
+    width: 80px;
+    height: 80px; 
     top: 45%;
     right: 5%;    
     animation-delay: 6s;
 }
-.sesentaynueve{
-     width: 35px;
-    height: 35px; 
+.veintiocho{
+     width: 80px;
+    height: 80px; 
     top: 67%;
     left: 3%;
     animation-delay: 6s;
 }
-.setentaydos{
-     width: 35px;
-    height: 35px; 
-    top: 86%;
-    left: 29%;
+.veintinueve{
+     width: 80px;
+    height: 80px; 
+    top: 83%;
+    left: 25%;
     animation-delay: 6s;
 }
 .triangle-red{
@@ -312,7 +308,7 @@ p{
     animation-duration: 2.8s;
 }
 .tamaño--2{
-    top: -70%;
+    top: -48%;
     -webkit-animation-name: aparece;
     animation-name: aparece;
     -webkit-animation-duration: 2.8s;
@@ -321,7 +317,7 @@ p{
 .parrafo{
     position: absolute;
     top: 60%;
-    font-weight: 800;
+    font-weight: 400;
     font-size: 25px;
     color: #565556;
 }
@@ -333,7 +329,13 @@ p{
     top: 22%;
     font-size: 15px;
 }
-
+.tamaño--3{
+    top: -85%;
+    -webkit-animation-name: aparece;
+    animation-name: aparece;
+    -webkit-animation-duration: 2.8s;
+    animation-duration: 2.8s;
+}
 
 /* Chrome, Safari, Opera */
 @-webkit-keyframes aparece {
