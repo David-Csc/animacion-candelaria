@@ -2,6 +2,9 @@ body{
     margin-bottom: 500px;
     margin-top: 500px;
 }
+p{
+    font-family: 'Roboto'
+}
 
 .bkg-silver{
     background-color: black;
@@ -95,7 +98,6 @@ body{
 .dos{
     right: 70%;
     top: 70%;
-    
 }
 .tres{
     left: 30%;
@@ -160,55 +162,6 @@ body{
     width: 60px;
     height: 60px
 }
-.catorce{
-    top: 5%;
-    right: 26%;
-    animation-delay: 4s;
-    width: 40px;
-    height: 40px;
-}
-.quince{
-    top: 4%;
-    right: 10%;
-    animation-delay: 4s;
-    width: 40px;
-    height: 40px;
-}
-.diesyseis{
-    top: 25%;
-    right: 27%;
-    animation-delay: 4s;
-    width: 40px;
-    height: 40px;
-}
-.diesysiete{
-    top: 34%;
-    right: 6%;
-    animation-delay: 4s;
-    width: 40px;
-    height: 40px;
-}
-.diesyocho{
-    top: 48%;
-    right: 23%;
-    animation-delay: 4s;
-    width: 40px;
-    height: 40px;
-}
-.diesynueve{
-    top: 85%;
-    right: 8%;
-    animation-delay: 4s;
-    width: 40px;
-    height: 40px;
-}
-.veinte{
-    top: 90%;
-    right: 20%;
-    animation-delay: 4s;
-    width: 40px;
-    height: 40px;
-}
 .veintiuno{
     top: 35%;
     right: 40%;
@@ -252,60 +205,11 @@ body{
     height: 40px;
 }
 /* CUARTA APARICION */
-.veintisiete{
-    width: 35px;
-    height: 35px;
-    top: 7%;
-    right: 33%;
-    animation-delay: 4.5s;
-}
-.veintiocho{
-    width: 35px;
-    height: 35px;
-    top: 20%;
-    right: 31%;
-    animation-delay: 4.5s;
-}
-.veintinueve{
-    top: 3%;
-    right: 18%;
-    width: 35px;
-    height: 35px;
-    animation-delay: 4.5s;
-}
-.treinta{
-    top: 15%;
-    right: 8%;
-    width: 35px;
-    height: 35px;
-    animation-delay: 4.5s;
-}
 .treintayuno{
     right: 13%;
     top: 30%;
     width: 35px;
     height: 35px;
-    animation-delay: 4.5s;
-}
-.treintaydos{
-    width: 35px;
-    height: 35px;
-    right: 18%;
-    top: 50%;
-    animation-delay: 4.5s;
-}
-.treintaytres{
-    width: 35px;
-    height: 35px;
-    right: 10%;
-    top: 50%;
-    animation-delay: 4.5s;
-}
-.treintaycuatro{
-    width: 35px;
-    height: 35px;
-    right: 11%;
-    top: 73%;
     animation-delay: 4.5s;
 }
 .treintaycinco{
@@ -315,69 +219,12 @@ body{
     top: 78%;
     animation-delay: 4.5s;
 }
-.treintayseis{
-    width: 35px;
-    height: 35px;
-    top: 70%;
-    right: 35%;
-    animation-delay: 4.5s;
-}
-.treintaysiete{
-    width: 35px;
-    height: 35px;
-    top: 90%;
-    right: 30%;
-    animation-delay: 4.5s;
-}
 .treintayocho{
     width: 35px;
     height: 35px;
     top: 75%;
     right: 45%;
     animation-delay: 4.5s;
-}
-.treintaynueve{
-    width: 35px;
-    height: 35px;
-    left: 30%;
-    top: 66%;
-    animation-delay: 4.5s;
-}
-.cuarenta{
-    width: 35px;
-    height: 35px;
-    left: 30%;
-    top: 66%;
-    animation-delay: 4.5s;
-}
-.cuarentayuno{
-    width: 35px;
-    height: 35px;
-    top: 38%;
-    left: 25%;
-    animation-delay: 4.5s;
-}
-.cuarentaydos{
-    width: 35px;
-    height: 35px;
-    top: 38%;
-    left: 5%;
-    animation-delay: 4.5s;
-}
-/* QUINTA APARICION */
-.cuarentaytres{
-    width: 35px;
-    height: 35px; 
-    top: 12%;
-    right: 30%;   
-    animation-delay: 5s;
-}
-.cuarentaycuatro{
-    width: 35px;
-    height: 35px;
-    top: 3%;
-    right: 40%;
-    animation-delay: 5s;
 }
 .cuarentaycinco{
     width: 35px;
@@ -393,125 +240,12 @@ body{
     right: 36%;
     animation-delay: 5s;
 }
-.cuarentaysiete{
-    width: 35px;
-    height: 35px;
-    top: 10%;
-    right: 50%;
-    animation-delay: 5s;
-}
-.cuarentayocho{
-    width: 35px;
-    height: 35px;
-    top: 15%;
-    right: 58%;
-    animation-delay: 5s;
-}
-.cuarentaynueve{
-    width: 35px;
-    height: 35px;
-    top: 37%;
-    right: 54%;
-    animation-delay: 5s;
-}
-.cincuenta{
-    width: 35px;
-    height: 35px;
-    top: 1%;
-    left: 34%;
-    animation-delay: 5s;
-}
-.cincuentayuno{
-    width: 35px;
-    height: 35px;
-    top: 6%;
-    left: 23%;
-    animation-delay: 5s;
-}
-.cincuentaydos{
-    width: 35px;
-    height: 35px;
-    top: 20%;
-    left: 25%;
-    animation-delay: 5s;
-}
-.cincuentaytres{
-    width: 35px;
-    height: 35px;
-    top: 45%;
-    left: 20%;
-    animation-delay: 5s;
-}
-.cincuentaycuatro{
-    width: 35px;
-    height: 35px;
-    top: 44%;
-    left: 10%;
-    animation-delay: 5s;
-}
-.cincuentaycinco{
-    width: 35px;
-    height: 35px;
-    top: 25%;
-    left: 4%;
-    animation-delay: 5s;
-}
-/* SEXTA APARICION */
-.cincuentayseis{
-    width: 35px;
-    height: 35px;
-    right: 5%;
-    top: 23%;
-    animation-delay: 5.5s;
-}
-.cincuentaysiete{
-    width: 35px;
-    height: 35px;
-    left: 28%;
-    top: 3%;
-     animation-delay: 5.5s;
-}
-.cincuentayocho{
-    width: 35px;
-    height: 35px;
-    left: 19%;
-    top: 13%;
-     animation-delay: 5.5s;
-}
-.cincuentaynueve{
-    width: 35px;
-    height: 35px;
-    left: 40%;
-    top: 6%;
-     animation-delay: 5.5s;
-}
-.sesenta{
-    width: 35px;
-    height: 35px;
-    left: 40%;
-    top: 6%;
-     animation-delay: 5.5s;
-}
 .sesentayuno{
     width: 35px;
     height: 35px;
     left: 5%;
     top: 50%;
      animation-delay: 5.5s;
-}
-.sesentaydos{
-    width: 35px;
-    height: 35px;
-    top: 5%;
-    left: 50%;
-     animation-delay: 5.5s;
-}
-.sesentaytres{
-    width: 35px;
-    height: 35px;
-    top: 63%;
-    left: 8%;
-    animation-delay: 5.5s;
 }
 .sesentaycuatro{
     width: 35px;
@@ -520,28 +254,7 @@ body{
     left: 3%;
      animation-delay: 5.5s;
 }
-.sesentaycinco{
-    width: 35px;
-    height: 35px; 
-    top: 90%;
-    left: 10%;   
-     animation-delay: 5.5s;
-}
 /* SEPTIMA APARICION */
-.sesentayseis{
-     width: 35px;
-    height: 35px;
-    top: 3%;
-    right: 52%; 
-    animation-delay: 6s;
-}
-.sesentaysiete{
-     width: 35px;
-    height: 35px; 
-    top: 20%;
-    right: 53%;
-    animation-delay: 6s;
-}
 .sesentayocho{
      width: 35px;
     height: 35px; 
@@ -554,20 +267,6 @@ body{
     height: 35px; 
     top: 67%;
     left: 3%;
-    animation-delay: 6s;
-}
-.setenta{
-     width: 35px;
-    height: 35px; 
-    top: 58%;
-    left: 5%;
-    animation-delay: 6s;
-}
-.setentayuno{
-     width: 35px;
-    height: 35px; 
-    top: 86%;
-    left: 5%;
     animation-delay: 6s;
 }
 .setentaydos{
