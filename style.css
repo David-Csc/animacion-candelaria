@@ -226,19 +226,20 @@ p{
     right: 45%;
     animation-delay: 4.5s;
 }
-.cuarentaycinco{
+.cincuentaycinco{
     width: 35px;
     height: 35px;
-    top: 65%;
-    right: 5%;
+    top: 25%;
+    left: 4%;
     animation-delay: 5s;
 }
-.cuarentayseis{
+/* SEXTA APARICION */
+.cincuentayseis{
     width: 35px;
     height: 35px;
-    top: 80%;
-    right: 36%;
-    animation-delay: 5s;
+    right: 5%;
+    top: 23%;
+    animation-delay: 5.5s;
 }
 .sesentayuno{
     width: 35px;
