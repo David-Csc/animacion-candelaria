@@ -1,9 +1,10 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap"); 
 body{
     margin-bottom: 500px;
     margin-top: 500px;
 }
 p{
-    font-family: 'Roboto'
+    font-family: 'Roboto';
 }
 
 .bkg-silver{
@@ -395,4 +396,65 @@ p{
     }
  }
  
+ @media (max-width: 767px){
+     .circle-silver--3{
+         display: none;
+     }
+     .circle-silver{
+        -webkit-animation-name: primero;
+        animation-name: primero;
+        -webkit-animation-duration: 2s;
+        animation-duration: 2s; 
+        
+        top: 10%;
+    }
+    .circle-silver--2{
+        -webkit-animation-name: primero;
+        animation-name: primero;
+        -webkit-animation-duration: 2s;
+        animation-duration: 2s; 
+        
+        top: 70%;
+    }
+    .circle-mustard{
+        -webkit-animation-name: aparece;
+        animation-name: aparece;
+        -webkit-animation-duration: 1.5s;
+        animation-duration: 1.5s; 
+        animation-delay: 1.5s;
+        left: 33%;
+        top: 41%;
+        opacity: 0;
+    }
+    @-webkit-keyframes derecha { 
+        0%{
+            transform: scale(0)
+        }
+        60%{
+            transform: scale(1)
+        }
+        75%{
+            transform: translateY(135px);
+        }
+        
+        100%{
+            
+        }
+     }
+     @-webkit-keyframes izquierda { 
+        0%{
+            transform: scale(0)
+        }
+        60%{
+            transform: scale(1)
+        }
+        75%{
+            transform: translateY(-135px);
+        }
+        
+        100%{
+            
+        }
+     }
+ }
    
