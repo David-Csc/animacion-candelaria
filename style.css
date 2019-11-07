@@ -1,462 +1,434 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap"); 
-p{
-    font-family: 'Roboto';
-    font-weight: 300;
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap");
 
+p {
+	font-family: 'Roboto';
+	font-weight: 300;
 }
 
-.bkg-silver{
-    background-color: black;
-    height: 600px;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    text-align: center;
-    position: relative;
+.bkg-silver {
+	background-color: black;
+	height          : 600px;
+	display         : flex;
+	justify-content : center;
+	align-content   : center;
+	text-align      : center;
+	position        : relative;
 }
-.circle-mustard{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #fefaf1;
-    background-color: #9d7215;
-    width: 110px;
-    border: 1px solid #9d7215   ;
-    border-radius: 60px;
-    height: 110px;
-    position: absolute;
-    -webkit-animation-name: aparece;
-    animation-name: aparece;
-    -webkit-animation-duration: 1.5s;
-    animation-duration: 1.5s; 
-    animation-delay: 1.5s;
-    left: 45%;
-    top: 43%;
-    opacity: 0;
+
+.circle-mustard {
+	display         : flex;
+	justify-content : center;
+	align-items     : center;
+	color           : #fefaf1;
+	background-color: #9d7215;
+	width           : 110px;
+	border          : 1px solid #9d7215;
+	border-radius   : 60px;
+	height          : 110px;
+	position        : absolute;
+	animation       : aparece 1s ease 2s forwards;
+	left            : 44.3%;
+	top             : 43%;
+	opacity         : 0;
 }
-.circle-silver{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #565556;
-    background-color: #1e1d1e;
-    width: 150px;
-    border: 1px solid #1e1d1e;
-    border-radius: 75px;
-    height: 150px;
-    position: absolute;
-    -webkit-animation-name: primero;
-    animation-name: primero;
-    -webkit-animation-duration: 2s;
-    animation-duration: 2s; 
-    left: 28%;
-    top: 40%;
+
+.circle-silver {
+	display           : flex;
+	justify-content   : center;
+	align-items       : center;
+	color             : #565556;
+	background-color  : #1e1d1e;
+	width             : 150px;
+	border            : 1px solid #1e1d1e;
+	border-radius     : 75px;
+	height            : 150px;
+	position          : absolute;
+	animation-name    : primero;
+	animation-duration: 2s;
+	left              : 28%;
+	top               : 40%;
 }
-.circle-silver--2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #565556;
-    background-color: #1e1d1e;
-    width: 150px;
-    border: 1px solid #1e1d1e;
-    border-radius: 75px;
-    height: 150px;
-    position: absolute;
-    -webkit-animation-name: primero;
-    animation-name: primero;
-    -webkit-animation-duration: 2s;
-    animation-duration: 2s; 
-    right: 28%;
-    top: 40%;
+
+.circle-silver--2 {
+	display           : flex;
+	justify-content   : center;
+	align-items       : center;
+	color             : #565556;
+	background-color  : #1e1d1e;
+	width             : 150px;
+	border            : 1px solid #1e1d1e;
+	border-radius     : 75px;
+	height            : 150px;
+	position          : absolute;
+	animation-name    : primero;
+	animation-duration: 2s;
+	right             : 28%;
+	top               : 40%;
 }
-.circle-silver--3{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #565556;
-    background-color: #1e1d1e;
-    width: 80px;
-    border: 1px solid #1e1d1e;
-    border-radius: 50px;
-    height: 80px;
-    position: absolute;
-    -webkit-animation-name: aparece;
-    animation-name: aparece;
-    -webkit-animation-duration: 2.5s;
-    animation-duration: 2.5s; 
-    animation-delay: 2s;
-    right: 32%;
-    top: 40%;
-    opacity:;
+
+.circle-silver--3 {
+	display         : flex;
+	justify-content : center;
+	align-items     : center;
+	color           : #565556;
+	background-color: #1e1d1e;
+	width           : 80px;
+	border          : 1px solid #1e1d1e;
+	border-radius   : 50px;
+	height          : 80px;
+	position        : absolute;
+	right           : 32%;
+	top             : 40%;
+	opacity         : 0;
 }
-.uno{
-    right: 35%;
-    top: 12%
+
+.uno {
+	right    : 35%;
+	top      : 12%;
+	animation: aparece 1s ease 2.5s forwards;
 }
-.dos{
-    right: 70%;
-    top: 65%;
+
+.dos {
+	right    : 70%;
+	top      : 65%;
+	animation: aparece 1s ease 2.8s forwards;
 }
-.tres{
-    left: 30%;
-    top: 10%;
+
+.tres {
+	left     : 30%;
+	top      : 10%;
+	animation: aparece 1s ease 3.1s forwards;
 }
-.cuatro{
-    left: 80%;
-    top: 60%;
+
+.cuatro {
+	left     : 80%;
+	top      : 60%;
+	animation: aparece 1s ease 3.4s forwards;
 }
-.cinco{
-    right: 25%;
-    top: 75%;
+
+.cinco {
+	right    : 25%;
+	top      : 75%;
+	animation: aparece 1s ease 3.7s forwards;
 }
+
 /* PRIMERA APARICION */
-.seis{
-    top: 33%;
-    right: 20%;
-    animation-delay: 3s;
+.seis {
+	top      : 33%;
+	right    : 20%;
+	animation: aparece 1s ease 4s forwards;
 }
-.siete{
-    top: 80%;
-    right: 16%;
-    animation-delay: 3s;
+
+.siete {
+	top      : 80%;
+	right    : 16%;
+	animation: aparece 1s ease 4.3s forwards;
 }
-.ocho{
-    top: 15%;
-    right: 47%;
-    animation-delay: 3s;
+
+.ocho {
+	top      : 15%;
+	right    : 47%;
+	animation: aparece 1s ease 4.6s forwards;
 }
-.nueve{
-    top: 75%;
-    right: 50%;
-    animation-delay: 3s;
+
+.nueve {
+	top      : 75%;
+	right    : 50%;
+	animation: aparece 1s ease 4.9s forwards;
 }
-.diez{
-    top: 23%;
-    left: 17%;
-    animation-delay: 3s;
+
+.diez {
+	top      : 23%;
+	left     : 17%;
+	animation: aparece 1s ease 5.2s forwards;
 }
+
 /* SEGUNDA APARICION */
-.once{
-    left: 15%;
-    top: 55%;
-    animation-delay: 3.5s;
-    width: 50px;
-    height: 50px;
+.once {
+	left     : 15%;
+	top      : 55%;
+	animation: aparece 1s ease 5.5s forwards;
+	width    : 50px;
+	height   : 50px;
 }
-.doce{
-    left: 15%;
-    top: 85%;
-    animation-delay: 3.5s;
-    width: 75px;
-    height: 75px;
+
+.doce {
+	left     : 15%;
+	top      : 85%;
+	animation: aparece 1s ease 5.8s forwards;
+	width    : 75px;
+	height   : 75px;
 }
+
 /* TERCERA APARICION */
-.trece{
-    top: 16%;
-    right: 20%;
-    animation-delay: 4s;
-    width: 60px;
-    height: 60px
+.trece {
+	top      : 16%;
+	right    : 20%;
+	animation: aparece 1s ease 6.1s forwards;
+	width    : 60px;
+	height   : 60px
 }
-.catorce{
-    top: 30%;
-    right: 42%;
-    animation-delay: 4s;
-    width: 60px;
-    height: 60px;
+
+.catorce {
+	top      : 30%;
+	right    : 42%;
+	animation: aparece 1s ease 6.4s forwards;
+	width    : 60px;
+	height   : 60px;
 }
-.quince{
-    top: 65%;
-    right: 45%;
-    animation-delay: 4s;
-    width: 70px;
-    height: 70px;
+
+.quince {
+	top      : 65%;
+	right    : 45%;
+	animation: aparece 1s ease 6.7s forwards;
+	width    : 70px;
+	height   : 70px;
 }
-.diesyseis{
-    top: 85%;
-    right: 41%;
-    animation-delay: 4s;
-    width: 80px;
-    height: 80px;
+
+.diesyseis {
+	top      : 85%;
+	right    : 41%;
+	animation: aparece 1s ease 7s forwards;
+	width    : 80px;
+	height   : 80px;
 }
-.diesysiete{
-    top: 85%;
-    left: 36%;
-    animation-delay: 4s;
-    width: 80px;
-    height: 80px;
+
+.diesysiete {
+	top      : 85%;
+	left     : 36%;
+	animation: aparece 1s ease 7.3s forwards;
+	width    : 80px;
+	height   : 80px;
 }
-.diesyocho{
-    top: 69%;
-    left: 33%;
-    animation-delay: 4s;
-    width: 80px;
-    height: 80px;
+
+.diesyocho {
+	top      : 69%;
+	left     : 33%;
+	animation: aparece 1s ease 7.6s forwards;
+	width    : 80px;
+	height   : 80px;
 }
-.diesynueve{
-    top: 75%;
-    left: 10%;
-    animation-delay: 4s;
-    width: 50px;
-    height: 50px;
+
+.diesynueve {
+	top      : 75%;
+	left     : 10%;
+	animation: aparece 1s ease 7.9s forwards;
+	width    : 50px;
+	height   : 50px;
 }
+
 /* CUARTA APARICION */
-.veinte{
-    right: 13%;
-    top: 30%;
-    width: 60px;
-    height: 60px;
-    animation-delay: 4.5s;
+.veinte {
+	right    : 13%;
+	top      : 30%;
+	width    : 60px;
+	height   : 60px;
+	animation: aparece 1s ease 8.2s forwards;
 }
-.veintiuno{
-    width: 80px;
-    height: 80px;
-    right: 5%;
-    top: 78%;
-    animation-delay: 4.5s;
+
+.veintiuno {
+	width    : 80px;
+	height   : 80px;
+	right    : 5%;
+	top      : 78%;
+	animation: aparece 1s ease 8.5s forwards;
 }
-.veintidos{
-    width: 80px;
-    height:80px;
-    top: 72%;
-    right: 35%;
-    animation-delay: 4.5s;
+
+.veintidos {
+	width    : 80px;
+	height   : 80px;
+	top      : 72%;
+	right    : 35%;
+	animation: aparece 1s ease 8.8s forwards;
 }
-.veintitres{
-    width: 50px;
-    height:50px;
-    top: 25%;
-    left: 4%;
-    animation-delay: 5s;
+
+.veintitres {
+	width    : 50px;
+	height   : 50px;
+	top      : 25%;
+	left     : 4%;
+	animation: aparece 1s ease 9.1s forwards;
 }
+
 /* SEXTA APARICION */
-.veinticuatro{
-    width: 80px;
-    height: 80px;
-    right: 5%;
-    top: 23%;
-    animation-delay: 5.5s;
+.veinticuatro {
+	width    : 80px;
+	height   : 80px;
+	right    : 5%;
+	top      : 23%;
+	animation: aparece 1s ease 9.4s forwards;
 }
-.veinticinco{
-    width: 80px;
-    height:80px;
-    left: 5%;
-    top: 50%;
-     animation-delay: 5.5s;
+
+.veinticinco {
+	width    : 80px;
+	height   : 80px;
+	left     : 5%;
+	top      : 50%;
+	animation: aparece 1s ease 9.7s forwards;
 }
-.veintiseis{
-    width: 80px;
-    height:80px;
-    top: 85%;
-    left: 5%;
-     animation-delay: 5.5s;
+
+.veintiseis {
+	width    : 80px;
+	height   : 80px;
+	top      : 85%;
+	left     : 5%;
+	animation: aparece 1s ease 10s forwards;
 }
+
 /* SEPTIMA APARICION */
-.veintisiete{
-    width: 80px;
-    height: 80px; 
-    top: 45%;
-    right: 5%;    
-    animation-delay: 6s;
-}
-.veintiocho{
-     width: 80px;
-    height: 80px; 
-    top: 67%;
-    left: 3%;
-    animation-delay: 6s;
-}
-.veintinueve{
-     width: 80px;
-    height: 80px; 
-    top: 83%;
-    left: 25%;
-    animation-delay: 6s;
-}
-.triangle-red{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    width: 230px;
-    position: absolute;
-    -webkit-animation-name: derecha;
-    animation-name: derecha;
-    -webkit-animation-duration: 2.3s;
-    animation-duration: 2.3s;
-    top: -60%;
-}
-.triangle-red--2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    width: 230px;
-    position: absolute;
-    -webkit-animation-name: izquierda;
-    animation-name: izquierda;
-    -webkit-animation-duration: 2.3s;
-    animation-duration: 2.3s;
-    top: -60%;
-}
-.tamaño{
-    top: -30%;
-    -webkit-animation-name: aparece;
-    animation-name: aparece;
-    -webkit-animation-duration: 2.8s;
-    animation-duration: 2.8s;
-}
-.tamaño--2{
-    top: -48%;
-    -webkit-animation-name: aparece;
-    animation-name: aparece;
-    -webkit-animation-duration: 2.8s;
-    animation-duration: 2.8s;
-}
-.parrafo{
-    position: absolute;
-    top: 60%;
-    font-weight: 400;
-    font-size: 25px;
-    color: #565556;
-}
-.variante{
-    top: 40%;
-    font-size: 15px;
-}
-.variante--2{
-    top: 22%;
-    font-size: 15px;
-}
-.tamaño--3{
-    top: -85%;
-    -webkit-animation-name: aparece;
-    animation-name: aparece;
-    -webkit-animation-duration: 2.8s;
-    animation-duration: 2.8s;
+.veintisiete {
+	width    : 80px;
+	height   : 80px;
+	top      : 45%;
+	right    : 5%;
+	animation: aparece 1s ease 10.3s forwards;
 }
 
-/* Chrome, Safari, Opera */
-@-webkit-keyframes aparece {
-
-    from{
-        opacity: 0;
-        transform: scale(0);
-    }
-    to{
-        transform: scale(1);
-        opacity: 1;
-    }
- }    
-
-/* Standard syntax */
-@-webkit-keyframes primero {
-    0%{
-        transform: scale(0)
-    }
-    60%{
-        transform: scale(1)
-    }
-    75%{
-       
-    }
-    
-    100%{
-        
-    }
+.veintiocho {
+	width    : 80px;
+	height   : 80px;
+	top      : 67%;
+	left     : 3%;
+	animation: aparece 1s ease 10.6s forwards;
 }
 
-@-webkit-keyframes derecha { 
-    0%{
-        transform: scale(0)
-    }
-    60%{
-        transform: scale(1)
-    }
-    75%{
-        transform: translateX(135px);
-    }
-    
-    100%{
-        
-    }
- }
- @-webkit-keyframes izquierda { 
-    0%{
-        transform: scale(0)
-    }
-    60%{
-        transform: scale(1)
-    }
-    75%{
-        transform: translateX(-135px);
-    }
-    
-    100%{
-        
-    }
- }
- 
- @media (max-width: 767px){
-     .circle-silver--3{
-         display: none;
-     }
-     .circle-silver{
-        -webkit-animation-name: primero;
-        animation-name: primero;
-        -webkit-animation-duration: 2s;
-        animation-duration: 2s; 
-        
-        top: 10%;
-    }
-    .circle-silver--2{
-        -webkit-animation-name: primero;
-        animation-name: primero;
-        -webkit-animation-duration: 2s;
-        animation-duration: 2s; 
-        
-        top: 70%;
-    }
-    .circle-mustard{
-        -webkit-animation-name: aparece;
-        animation-name: aparece;
-        -webkit-animation-duration: 1.5s;
-        animation-duration: 1.5s; 
-        animation-delay: 1.5s;
-        left: 33%;
-        top: 41%;
-        opacity: 0;
-    }
-    @-webkit-keyframes derecha { 
-        0%{
-            transform: scale(0)
-        }
-        60%{
-            transform: scale(1)
-        }
-        75%{
-            transform: translateY(135px);
-        }
-        
-        100%{
-            
-        }
-     }
-     @-webkit-keyframes izquierda { 
-        0%{
-            transform: scale(0)
-        }
-        60%{
-            transform: scale(1)
-        }
-        75%{
-            transform: translateY(-135px);
-        }
-        
-        100%{
-            
-        }
-     }
- }
-   
+.veintinueve {
+	width    : 80px;
+	height   : 80px;
+	top      : 83%;
+	left     : 25%;
+	animation: aparece 1s ease 10.9s forwards;
+}
+
+.triangle-derecha {
+	display           : flex;
+	justify-content   : center;
+	align-items       : center;
+	color             : white;
+	width             : 230px;
+	position          : absolute;
+	animation-name    : derecha;
+	animation-duration: 2.3s;
+	top               : -60%;
+}
+
+.triangle-izquierda {
+	display           : flex;
+	justify-content   : center;
+	align-items       : center;
+	color             : white;
+	width             : 230px;
+	position          : absolute;
+	animation-name    : izquierda;
+	animation-duration: 2.3s;
+	top               : -60%;
+}
+
+.triangle-red {
+	display        : flex;
+	justify-content: center;
+	align-items    : center;
+	color          : white;
+	width          : 230px;
+	position       : absolute;
+	top            : -30%;
+}
+
+.triangle-red--2 {
+	display        : flex;
+	justify-content: center;
+	align-items    : center;
+	color          : white;
+	width          : 230px;
+	position       : absolute;
+	top            : -60%;
+}
+
+.tamaño--2 {
+	top               : -48%;
+	animation-name    : aparece;
+	animation-duration: 2.8s;
+}
+
+.parrafo {
+	position   : absolute;
+	top        : 60%;
+	font-weight: 400;
+	font-size  : 25px;
+	color      : #565556;
+}
+
+.variante {
+	top      : 40%;
+	font-size: 15px;
+}
+
+.variante--2 {
+	top      : 22%;
+	font-size: 15px;
+}
+
+.tamaño--3 {
+	top               : -85%;
+	animation-name    : aparece;
+	animation-duration: 2.8s;
+}
+
+@keyframes aparece {
+	0% {
+		transform: scale(0);
+	}
+
+	100% {
+		opacity  : 1;
+		transform: scale(1);
+	}
+}
+
+@keyframes primero {
+	0% {
+		transform: scale(0)
+	}
+
+	60% {
+		transform: scale(1)
+	}
+
+	75% {}
+
+	100% {
+		opacity: 1 !important;
+	}
+}
+
+@keyframes derecha {
+	0% {
+		transform: scale(0)
+	}
+
+	60% {
+		transform: scale(1)
+	}
+
+	75% {
+		transform: translateX(135px);
+	}
+
+	100% {}
+}
+
+@keyframes izquierda {
+	0% {
+		transform: scale(0)
+	}
+
+	60% {
+		transform: scale(1)
+	}
+
+	75% {
+		transform: translateX(-135px);
+	}
+
+	100% {}
+}
