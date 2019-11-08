@@ -27,8 +27,8 @@ p {
 	height          : 110px;
 	position        : absolute;
 	animation       : aparece 1s ease 2s forwards;
-	left            : 44.3%;
-	top             : 43%;
+	left            : 45%;
+	top             : 40%;
 	opacity         : 0;
 }
 
@@ -91,19 +91,19 @@ p {
 .dos {
 	right    : 73%;
 	top      : 65%;
-	animation: aparece 1s ease 2.8s forwards;
+	animation: aparece 1s ease 2.7s forwards;
 }
 
 .tres {
 	left     : 30%;
 	top      : 10%;
-	animation: aparece 1s ease 3.1s forwards;
+	animation: aparece 1s ease 2.9s forwards;
 }
 
 .cuatro {
 	left     : 80%;
 	top      : 60%;
-	animation: aparece 1s ease 3.4s forwards;
+	animation: aparece 1s ease 3.1s forwards;
 }
 
 .cuatro .triangle-red {
@@ -113,7 +113,7 @@ p {
 .cinco {
 	right    : 25%;
 	top      : 75%;
-	animation: aparece 1s ease 3.7s forwards;
+	animation: aparece 1s ease 3.3s forwards;
 }
 
 .cinco .triangle-red {
@@ -124,7 +124,7 @@ p {
 .seis {
 	top      : 33%;
 	right    : 20%;
-	animation: aparece 1s ease 4s forwards;
+	animation: aparece 1s ease 3.5s forwards;
 }
 
 .seis .triangle-red {
@@ -132,21 +132,27 @@ p {
 }
 
 .siete {
+	width    : 60px;
+	height   : 60px;
 	top      : 80%;
 	right    : 16%;
-	animation: aparece 1s ease 4.3s forwards;
+	animation: aparece 1s ease 3.7s forwards;
+}
+
+.siete .triangle-red {
+	bottom: 32px;
 }
 
 .ocho {
 	top      : 15%;
 	right    : 47%;
-	animation: aparece 1s ease 4.6s forwards;
+	animation: aparece 1s ease 3.9s forwards;
 }
 
 .nueve {
 	top      : 75%;
 	right    : 50%;
-	animation: aparece 1s ease 4.9s forwards;
+	animation: aparece 1s ease 4.1s forwards;
 }
 
 .nueve .triangle-red {
@@ -156,14 +162,14 @@ p {
 .diez {
 	top      : 23%;
 	left     : 17%;
-	animation: aparece 1s ease 5.2s forwards;
+	animation: aparece 1s ease 4.3s forwards;
 }
 
 /* SEGUNDA APARICION */
 .once {
 	left     : 15%;
 	top      : 55%;
-	animation: aparece 1s ease 5.5s forwards;
+	animation: aparece 1s ease 4.5s forwards;
 	width    : 50px;
 	height   : 50px;
 }
@@ -175,7 +181,7 @@ p {
 .doce {
 	left     : 15%;
 	top      : 85%;
-	animation: aparece 1s ease 5.8s forwards;
+	animation: aparece 1s ease 4.7s forwards;
 	width    : 75px;
 	height   : 75px;
 }
@@ -184,7 +190,7 @@ p {
 .trece {
 	top      : 16%;
 	right    : 20%;
-	animation: aparece 1s ease 6.1s forwards;
+	animation: aparece 1s ease 4.9s forwards;
 	width    : 60px;
 	height   : 60px
 }
@@ -196,7 +202,7 @@ p {
 .catorce {
 	top      : 30%;
 	right    : 42%;
-	animation: aparece 1s ease 6.4s forwards;
+	animation: aparece 1s ease 5.1s forwards;
 	width    : 60px;
 	height   : 60px;
 }
@@ -208,7 +214,7 @@ p {
 .quince {
 	top      : 65%;
 	right    : 45%;
-	animation: aparece 1s ease 6.7s forwards;
+	animation: aparece 1s ease 5.3s forwards;
 	width    : 70px;
 	height   : 70px;
 }
@@ -216,7 +222,7 @@ p {
 .diesyseis {
 	top      : 85%;
 	right    : 41%;
-	animation: aparece 1s ease 7s forwards;
+	animation: aparece 1s ease 5.5s forwards;
 	width    : 80px;
 	height   : 80px;
 }
@@ -224,7 +230,7 @@ p {
 .diesysiete {
 	top      : 85%;
 	left     : 36%;
-	animation: aparece 1s ease 7.3s forwards;
+	animation: aparece 1s ease 5.7s forwards;
 	width    : 80px;
 	height   : 80px;
 }
@@ -236,7 +242,7 @@ p {
 .diesyocho {
 	top      : 69%;
 	left     : 33%;
-	animation: aparece 1s ease 7.6s forwards;
+	animation: aparece 1s ease 5.9s forwards;
 	width    : 80px;
 	height   : 80px;
 }
@@ -248,7 +254,7 @@ p {
 .diesynueve {
 	top      : 75%;
 	left     : 10%;
-	animation: aparece 1s ease 7.9s forwards;
+	animation: aparece 1s ease 6.1s forwards;
 	width    : 50px;
 	height   : 50px;
 }
@@ -263,7 +269,7 @@ p {
 	top      : 30%;
 	width    : 60px;
 	height   : 60px;
-	animation: aparece 1s ease 8.2s forwards;
+	animation: aparece 1s ease 6.3s forwards;
 }
 
 .veintiuno {
@@ -271,7 +277,7 @@ p {
 	height   : 80px;
 	right    : 5%;
 	top      : 78%;
-	animation: aparece 1s ease 8.5s forwards;
+	animation: aparece 1s ease 6.5s forwards;
 }
 
 .veintidos {
@@ -279,7 +285,7 @@ p {
 	height   : 80px;
 	top      : 72%;
 	right    : 35%;
-	animation: aparece 1s ease 8.8s forwards;
+	animation: aparece 1s ease 6.7s forwards;
 }
 
 .veintitres {
@@ -287,7 +293,7 @@ p {
 	height   : 50px;
 	top      : 8%;
 	left     : 4%;
-	animation: aparece 1s ease 9.1s forwards;
+	animation: aparece 1s ease 6.9s forwards;
 }
 
 .veintitres .triangle-red--2 {
@@ -300,7 +306,7 @@ p {
 	height   : 80px;
 	right    : 5%;
 	top      : 10%;
-	animation: aparece 1s ease 9.4s forwards;
+	animation: aparece 1s ease 7.1s forwards;
 }
 
 .veinticuatro .triangle-red--2 {
@@ -312,7 +318,7 @@ p {
 	height   : 80px;
 	left     : 5%;
 	top      : 30%;
-	animation: aparece 1s ease 9.7s forwards;
+	animation: aparece 1s ease 7.3s forwards;
 }
 
 .veintiseis {
@@ -320,7 +326,7 @@ p {
 	height   : 80px;
 	top      : 85%;
 	left     : 3%;
-	animation: aparece 1s ease 10s forwards;
+	animation: aparece 1s ease 7.5s forwards;
 }
 
 /* SEPTIMA APARICION */
@@ -329,7 +335,7 @@ p {
 	height   : 80px;
 	top      : 45%;
 	right    : 5%;
-	animation: aparece 1s ease 10.3s forwards;
+	animation: aparece 1s ease 7.7s forwards;
 }
 
 .veintisiete .triangle-red--2 {
@@ -341,7 +347,7 @@ p {
 	height   : 80px;
 	top      : 57%;
 	left     : 3%;
-	animation: aparece 1s ease 10.6s forwards;
+	animation: aparece 1s ease 7.9s forwards;
 }
 
 .veintinueve {
@@ -349,7 +355,7 @@ p {
 	height   : 80px;
 	top      : 83%;
 	left     : 25%;
-	animation: aparece 1s ease 10.9s forwards;
+	animation: aparece 1s ease 8.1s forwards;
 }
 
 .veintinueve .triangle-red--2 {
