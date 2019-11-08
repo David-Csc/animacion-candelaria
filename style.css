@@ -150,13 +150,15 @@ p {
 }
 
 .nueve {
+	width    : 70px;
+	height   : 70px;
 	top      : 75%;
 	right    : 50%;
 	animation: aparece 1s ease 4.1s forwards;
 }
 
 .nueve .triangle-red {
-	bottom: 50px;
+	bottom: 42px;
 }
 
 .diez {
@@ -215,8 +217,8 @@ p {
 	top      : 65%;
 	right    : 45%;
 	animation: aparece 1s ease 5.3s forwards;
-	width    : 70px;
-	height   : 70px;
+	width    : 60px;
+	height   : 60px;
 }
 
 .diesyseis {
@@ -243,8 +245,8 @@ p {
 	top      : 69%;
 	left     : 33%;
 	animation: aparece 1s ease 5.9s forwards;
-	width    : 80px;
-	height   : 80px;
+	width    : 70px;
+	height   : 70px;
 }
 
 .diesyocho .triangle-red--2 {
