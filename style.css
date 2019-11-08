@@ -5,7 +5,7 @@ p {
 	font-weight: 300;
 }
 
-.bkg-silver {
+.c-animacion {
 	background-color: black;
 	height          : 600px;
 	display         : flex;
@@ -46,7 +46,7 @@ p {
 	animation-name    : primero;
 	animation-duration: 2s;
 	left              : 28%;
-	top               : 40%;
+	top               : 36%;
 }
 
 .circle-silver--2 {
@@ -63,7 +63,7 @@ p {
 	animation-name    : primero;
 	animation-duration: 2s;
 	right             : 28%;
-	top               : 40%;
+	top               : 36%;
 }
 
 .circle-silver--3 {
@@ -89,7 +89,7 @@ p {
 }
 
 .dos {
-	right    : 70%;
+	right    : 73%;
 	top      : 65%;
 	animation: aparece 1s ease 2.8s forwards;
 }
@@ -106,10 +106,18 @@ p {
 	animation: aparece 1s ease 3.4s forwards;
 }
 
+.cuatro .triangle-red {
+	bottom: 50px;
+}
+
 .cinco {
 	right    : 25%;
 	top      : 75%;
 	animation: aparece 1s ease 3.7s forwards;
+}
+
+.cinco .triangle-red {
+	bottom: 50px;
 }
 
 /* PRIMERA APARICION */
@@ -117,6 +125,10 @@ p {
 	top      : 33%;
 	right    : 20%;
 	animation: aparece 1s ease 4s forwards;
+}
+
+.seis .triangle-red {
+	bottom: 50px;
 }
 
 .siete {
@@ -137,6 +149,10 @@ p {
 	animation: aparece 1s ease 4.9s forwards;
 }
 
+.nueve .triangle-red {
+	bottom: 50px;
+}
+
 .diez {
 	top      : 23%;
 	left     : 17%;
@@ -150,6 +166,10 @@ p {
 	animation: aparece 1s ease 5.5s forwards;
 	width    : 50px;
 	height   : 50px;
+}
+
+.once .triangle-red--2 {
+	bottom: 25px;
 }
 
 .doce {
@@ -169,12 +189,20 @@ p {
 	height   : 60px
 }
 
+.trece .triangle-red--2 {
+	bottom: 30px;
+}
+
 .catorce {
 	top      : 30%;
 	right    : 42%;
 	animation: aparece 1s ease 6.4s forwards;
 	width    : 60px;
 	height   : 60px;
+}
+
+.catorce .triangle-red--2 {
+	bottom: 30px;
 }
 
 .quince {
@@ -201,6 +229,10 @@ p {
 	height   : 80px;
 }
 
+.diesysiete .triangle-red--2 {
+	bottom: 45px;
+}
+
 .diesyocho {
 	top      : 69%;
 	left     : 33%;
@@ -209,12 +241,20 @@ p {
 	height   : 80px;
 }
 
+.diesyocho .triangle-red--2 {
+	bottom: 45px;
+}
+
 .diesynueve {
 	top      : 75%;
 	left     : 10%;
 	animation: aparece 1s ease 7.9s forwards;
 	width    : 50px;
 	height   : 50px;
+}
+
+.diesynueve .triangle-red--2 {
+	bottom: 25px;
 }
 
 /* CUARTA APARICION */
@@ -245,9 +285,13 @@ p {
 .veintitres {
 	width    : 50px;
 	height   : 50px;
-	top      : 25%;
+	top      : 8%;
 	left     : 4%;
 	animation: aparece 1s ease 9.1s forwards;
+}
+
+.veintitres .triangle-red--2 {
+	bottom: 25px;
 }
 
 /* SEXTA APARICION */
@@ -255,15 +299,19 @@ p {
 	width    : 80px;
 	height   : 80px;
 	right    : 5%;
-	top      : 23%;
+	top      : 10%;
 	animation: aparece 1s ease 9.4s forwards;
+}
+
+.veinticuatro .triangle-red--2 {
+	bottom: 45px;
 }
 
 .veinticinco {
 	width    : 80px;
 	height   : 80px;
 	left     : 5%;
-	top      : 50%;
+	top      : 30%;
 	animation: aparece 1s ease 9.7s forwards;
 }
 
@@ -271,7 +319,7 @@ p {
 	width    : 80px;
 	height   : 80px;
 	top      : 85%;
-	left     : 5%;
+	left     : 3%;
 	animation: aparece 1s ease 10s forwards;
 }
 
@@ -284,10 +332,14 @@ p {
 	animation: aparece 1s ease 10.3s forwards;
 }
 
+.veintisiete .triangle-red--2 {
+	bottom: 55px;
+}
+
 .veintiocho {
 	width    : 80px;
 	height   : 80px;
-	top      : 67%;
+	top      : 57%;
 	left     : 3%;
 	animation: aparece 1s ease 10.6s forwards;
 }
@@ -298,6 +350,10 @@ p {
 	top      : 83%;
 	left     : 25%;
 	animation: aparece 1s ease 10.9s forwards;
+}
+
+.veintinueve .triangle-red--2 {
+	bottom: 50px;
 }
 
 .triangle-derecha {
@@ -325,23 +381,17 @@ p {
 }
 
 .triangle-red {
-	display        : flex;
-	justify-content: center;
-	align-items    : center;
-	color          : white;
-	width          : 230px;
-	position       : absolute;
-	top            : -30%;
+	position: absolute;
+	bottom  : 40px;
 }
 
 .triangle-red--2 {
-	display        : flex;
-	justify-content: center;
-	align-items    : center;
-	color          : white;
-	width          : 230px;
-	position       : absolute;
-	top            : -60%;
+	position: absolute;
+	bottom  : 40px;
+}
+
+.triangle-red--3 {
+	position: absolute;
 }
 
 .tamaño--2 {
@@ -352,20 +402,16 @@ p {
 
 .parrafo {
 	position   : absolute;
-	top        : 60%;
-	font-weight: 400;
-	font-size  : 25px;
+	font-weight: 500;
+	font-size  : 12px;
 	color      : #565556;
+	margin     : 0;
+	line-height: 1.25;
 }
 
-.variante {
-	top      : 40%;
-	font-size: 15px;
-}
-
-.variante--2 {
-	top      : 22%;
-	font-size: 15px;
+.parrafo.big {
+	font-size: 25px;
+	bottom   : 20px;
 }
 
 .tamaño--3 {
