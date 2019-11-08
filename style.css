@@ -486,3 +486,27 @@ p {
 
 	100% {}
 }
+
+@media(max-width: 992px) {
+
+	.circle-silver--3,
+	.circle-mustard {
+		display: none;
+	}
+
+	.circle-silver {
+		top : 20%;
+		left: 26%;
+	}
+
+	.circle-silver--2 {
+		top  : 60%;
+		right: auto;
+		left : 26%;
+	}
+
+	.triangle-derecha,
+	.triangle-izquierda {
+		animation-name: none;
+	}
+}
